@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router()
 const {connection, selectDatabase, insertDairy} = require('./config/DB.js')
-const {allDairies,dairyById} = require('./config/dairiesQueries.js')
+const {allDairies,dairyById, deleteById} = require('./config/dairiesQueries.js')
 
 
 const server = express();
@@ -19,6 +19,18 @@ server.get('/', function(req, res){
 server.get('/add', function(req, res){
     res.render('pages/add')
 })
+
+server.get('/delete', (req, res)=>{
+    connection.connect(function(){
+        console.log('Connected');
+    });
+
+    const id = req.body.id
+    console.log(id);
+    
+    deleteById(res, id);
+})
+
 
 server.get('/all', function(req, res){
     connection.connect(function(){
@@ -75,6 +87,7 @@ server.post('/submit', (req, res)=>{
 
     res.redirect('/all')
 })
+
 
 
 server.listen(PORT, ()=>{

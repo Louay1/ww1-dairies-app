@@ -23,4 +23,15 @@ var dairyById = function(res, id){
     })
 }
 
-module.exports = {allDairies,dairyById}
+// delete by id
+var deleteById = (res,id) =>{
+    selectDatabase()
+    sql = `Delete From dairies where id like '${id}'`
+    connection.query(sql, (err, results)=>{
+        if(err) throw err
+        console.log(id);
+        allDairies(res)
+    })
+}
+
+module.exports = {allDairies,dairyById, deleteById}

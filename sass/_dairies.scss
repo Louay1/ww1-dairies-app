@@ -105,10 +105,40 @@ $light: #EBEAEB;
         display: flex;
         flex-direction: column;
         align-items: center;
-        h2{
-            font-size: 35px;
-            font-weight: bolder;
+        .dash{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            h2{
+                margin: 15px 20px;
+                font-size: 35px;
+                font-weight: bolder;
+            }
+
+            input[type="submit"]{
+                margin: 15px 20px;
+                padding: 10px;
+                height: 50px;
+                width: 130px;
+
+                background: $red;
+                color: $light;
+                font-size: 15px;
+                font-weight: bold;
+
+                border: 2px solid $light;
+                border-radius: 50px;
+                transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+                &:hover{
+                    border: 2px solid $red;
+                    background: $light;
+                    color: $red;
+                    transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+                }
+            }
         }
+
         .body{
             padding: 10px;
             background: $dark3;
