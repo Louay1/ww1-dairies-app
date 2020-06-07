@@ -1,0 +1,54 @@
+
+$blue1: #177E89;
+$blue2: #084C61;
+$green2: #004f2d;
+$green1: #0a8754;
+$red: #DB3A34;
+$yellow: #FFC857;
+$dark: #343234;
+$dark2: #1F1E1F;
+$dark3:#141414;
+$light: #EBEAEB;
+
+.form{
+    form{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        .input{
+            display: flex;
+            flex-direction: column;
+            margin: 15px 0;
+            textarea{
+                resize: none;
+            }
+
+            textarea, input{
+                width: 400px;
+                padding: 6px;
+            }
+        }
+
+        input[type="submit"]{
+            margin: 15px 0;
+            padding: 10px;
+            height: 50px;
+            width: 120px;
+
+            background: $blue2;
+            color: $light;
+            font-size: 15px;
+            font-weight: bold;
+
+            border: 2px solid $light;
+            border-radius: 50px;
+            transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+            &:hover{
+                border: 2px solid $blue2;
+                background: $light;
+                color: $blue2;
+                transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+            }
+        }
+    }
+}

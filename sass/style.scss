@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+
+$blue1: #177E89;
+$blue2: #084C61;
+$green2: #004f2d;
+$green1: #0a8754;
+$red: #DB3A34;
+$yellow: #FFC857;
+$dark: #343234;
+$dark2: #1F1E1F;
+$dark3:#141414;
+$light: #EBEAEB;
+
+@import 'form';
+@import 'dairies';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Fira Code', monospace;
+}
+body{
+    background: $dark;
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    width: 200px;
+    background: $dark2;
+    color: white;
+    border-radius: 25px;
+
+    .header{
+        padding: 15px;
+    }
+
+    a{
+        color: $light;
+    }
+    .list-items{
+        height: 75%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        .nav-item{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 15px;
+            transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            &:hover{
+                background: $dark3;
+                cursor: pointer;
+                transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+            }
+        }
+    }
+}
+
+#app{
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 95vh;
+    width: 100%;
+    background: $dark2;
+    color: white;
+    border-radius: 25px;
+}

@@ -1,0 +1,25 @@
+<%- include('../partials/head.ejs') %>
+
+<%- include('../partials/navbar.ejs') %>
+
+    <div id="app">
+        <h1>Content</h1>
+        <div class="dairies">
+            <%= dairies %>
+            <% for(let i = 0; i < dairies.length; i++){ %>
+            <div class="dairy">
+                <div class="pic">
+                    <img src="<%= dairies[i].picture %>" alt="">
+                    <a href="all/<%= dairies[i].id %>">Go for iiiiit!</a>
+                </div>
+                <div class="title">
+                    <a href="#">
+                        <h1><%= dairies[i].title%></h1>
+                    </a>
+                </div>
+            </div>
+        <% } %>
+        </div>
+    </div>
+
+<%- include('../partials/foot.ejs') %>

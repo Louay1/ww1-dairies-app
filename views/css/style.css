@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
+.form form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.form form .input {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0;
+}
+.form form .input textarea {
+  resize: none;
+}
+.form form .input textarea, .form form .input input {
+  width: 400px;
+  padding: 6px;
+}
+.form form input[type=submit] {
+  margin: 15px 0;
+  padding: 10px;
+  height: 50px;
+  width: 120px;
+  background: #084C61;
+  color: #EBEAEB;
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid #EBEAEB;
+  border-radius: 50px;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.form form input[type=submit]:hover {
+  border: 2px solid #084C61;
+  background: #EBEAEB;
+  color: #084C61;
+  transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.dairies {
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  align-items: center;
+  scrollbar-width: thin;
+  scrollbar-color: #DB3A34 #141414;
+}
+.dairies::-webkit-scrollbar {
+  width: 12px;
+}
+.dairies::-webkit-scrollbar-track {
+  background: #141414;
+}
+.dairies::-webkit-scrollbar-thumb {
+  background-color: #DB3A34;
+  border-radius: 20px;
+  border: 3px solid orange;
+}
+.dairies .dairy {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 75vw;
+  padding: 20px;
+  margin: 15px;
+  background: #141414;
+  border-left: 10px solid rgba(219, 58, 52, 0);
+  border-radius: 10px;
+  transition: all 0.4s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.dairies .dairy:hover {
+  border-radius: 0;
+  border-left: 10px solid #db3a34;
+  transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+}
+.dairies .dairy a {
+  color: #EBEAEB;
+  text-decoration: none;
+}
+.dairies .dairy a:hover {
+  color: #FFC857;
+}
+.dairies .dairy .pic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.dairies .dairy .pic img {
+  width: 120px;
+  height: 118px;
+  object-fit: contain;
+}
+
+.full-dairy {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: #DB3A34 #141414;
+  padding: 20px;
+}
+.full-dairy::-webkit-scrollbar {
+  width: 12px;
+}
+.full-dairy::-webkit-scrollbar-track {
+  background: #141414;
+}
+.full-dairy::-webkit-scrollbar-thumb {
+  background-color: #DB3A34;
+}
+.full-dairy .picture {
+  height: 400px;
+  width: 398px;
+}
+.full-dairy .picture img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.full-dairy .content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.full-dairy .content h2 {
+  font-size: 35px;
+  font-weight: bolder;
+}
+.full-dairy .content .body {
+  padding: 10px;
+  background: #141414;
+  line-height: 2em;
+  border-radius: 20px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Fira Code", monospace;
+}
+
+body {
+  background: #343234;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  width: 200px;
+  background: #1F1E1F;
+  color: white;
+  border-radius: 25px;
+}
+.navbar .header {
+  padding: 15px;
+}
+.navbar a {
+  color: #EBEAEB;
+}
+.navbar .list-items {
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.navbar .list-items .nav-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 15px;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.navbar .list-items .nav-item:hover {
+  background: #141414;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#app {
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 95vh;
+  width: 100%;
+  background: #1F1E1F;
+  color: white;
+  border-radius: 25px;
+}
+
+/*# sourceMappingURL=style.css.map */

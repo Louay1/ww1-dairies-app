@@ -1,0 +1,21 @@
+{
+  "name": "WeekOne",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "kick": "nodemon App",
+    "scss": "sass --watch sass/style.scss views/css/style.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.26.8"
+  },
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}

@@ -1,0 +1,22 @@
+<%- include('../partials/head.ejs') %>
+
+<%- include('../partials/navbar.ejs') %>
+
+    <div id="app">
+        <h1>Content</h1>
+        <div class="full-dairy">
+            <div class="picture">
+                <img src="<%= dairy.picture %>" alt="">
+            </div>
+            <div class="content">
+                <h2>
+                    <%= dairy.title %>
+                </h2>
+                <div class="body">
+                    <%- dairy.body %>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<%- include('../partials/foot.ejs') %>
