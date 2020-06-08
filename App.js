@@ -81,9 +81,7 @@ server.post('/submit', (req, res)=>{
     const picture = "../images/"+pic
     insertDairy({id, title, body, picture});
 
-    connection.end(function(){
-        console.log('Connection Ended');
-    })
+    
 
     res.redirect('/all')
 })

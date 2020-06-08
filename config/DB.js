@@ -1,12 +1,16 @@
+
 const mysql = require('mysql')
 
+
 const connection = mysql.createConnection({
+    // The connection object
     host: 'localhost',
     user:'root',
     password:'mynewpassword',
     databse:'wicked_week1'
 })
 
+// Yeah xDDD IKR
 var selectDatabase = function(){
     sql = 'use wicked_week1';
 
@@ -15,6 +19,7 @@ var selectDatabase = function(){
         console.log('Database Selected');
     })
 }
+
 
 var createDairiesTable = function(err){
 
@@ -27,6 +32,7 @@ var createDairiesTable = function(err){
         +'body Text,'
         +'picture Varchar(255));'
     ;
+        
     console.log(sql);
 
     connection.query(sql, function(err, results){
@@ -35,6 +41,7 @@ var createDairiesTable = function(err){
     })
 
 }
+
 
 var insertDairy = function({...args}){
     selectDatabase()

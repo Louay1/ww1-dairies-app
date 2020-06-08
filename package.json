@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    // this is the command i ran here to start the server
     "kick": "nodemon App",
+    // This one to compile scss to css
     "scss": "sass --watch sass/style.scss views/css/style.css"
   },
   "keywords": [],
