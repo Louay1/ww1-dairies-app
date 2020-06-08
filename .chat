@@ -1,0 +1,99 @@
+About SCSS(
+
+        // this scss, i call it Super CSS, also knows Sassy (SASS) CSS, another thing i like to call it Sexy CSS XD because once u are attracked to it, u never wnna go back xD creative name XD
+        // but mostly I looove to call it Super CSS, because it is powerful *-*
+        // Check the css file and u will know why
+        // Tooo messy;  and BIG, and irreadable, but SCSS is elegant and orgnised and maintain clean code, u can even creat functions in it and use loops ...really??
+        // Yessss
+
+
+        // Here i called the Mixin
+        // Whatcha think :3
+        // it's simple *^* and functional , love it, once I go back to webdev I'll definitly try it 
+        // REALLY? U will one day ?? I will
+        // YESSSSS I WANNA CREATE STUFF WITH U XDD
+        // FINALLY XD
+        //we will buils some shit together... I'm just a bit busy these days... gamedev, modeling, mobile apps aaaand I have to study at some point
+        // I feel u, take ur time, and i just might stay at NTIC so, who knows xD mazal we have time Inshallah 
+        //yep... dude you rock it, your code is amazing 
+        // YOU ARE AMAZING
+        //does my code say so?? no
+        // I know, and i kno wur code :3, Don't judge a coder from it's code xD And yes, a coder is a thing xD Mahouch bnadem XD
+        //what will be next challenge about?? I'll win next time... with much better code... arganized one
+        // Cant wait :3, well, am thinking of changing a bit, i wanna us to work with external api, so basically fetching data and use a certain api to work with
+        // It is a required skill we need to work on true, I agree
+        // Perfect :3 We will see which one, that link i sent u that day about the ideas has a list of APIs we can use, if u didn't like them we can look for more 
+        //send it again, Sure thing i will :3 ,thanks 
+
+
+
+
+        // Wait, let me show u something i did this moring with scss okay
+        // I was following a tutorial
+        // Didnt finish it, but wait till i show u the scss code
+
+        @for($i = 0 ; $i > 10; $i++){
+    // Puut a styling here 
+}
+
+
+about DB{
+        // NodeJS provides MANY MANY modules, like this one 'mysql', u just run a command to install it 'npm install mysql'
+        // here i created the connection, as u see
+        // This is the DB connection file
+        //okay I take it back, you're not messy
+        // Am not in codes :3
+        //and you were saying that c# is weird??
+        // It removes a whoooole word
+        // Keep holding it and press 
+        // WHAT ARE U DOING XDD
+        //Idk XD doing AS U ASKED, IT DOESN'T WORK THEN, it is for me
+        // However, let me show u around!!
+        //OKII DOKII
+
+        // Here it just selects a databse, i had a weird error, and this fixed it
+
+        // a good practice of JS, is make each function or method, do only one task, so am implementing that here, kinda xD
+        // This created a table for me, but it was useless xD
+        //WHY??
+        // Somehow, when i call it, ygouli 'Syntax error', and am sure it is not, i tried it and printed the query in the console
+        // But it didn't work, and i excuted the same query, manually on mysql command line and worked normally -_-
+        // And this one, inserts a dairy! And u tell me my code it orgnised while this function doesn't belong here 
+        // {...args} this means i can insert as many arguments in that object as i want :3
+        // Hello ?? xD
+        //sorry, I got interrupted...sooo, excute it
+        // Sure !! Just a sec ok
+
+
+
+
+
+        // here i created the connection, as u see
+        // This is the DB connection file
+        //okay I take it back, you're not messy
+        // Am not in codes :3
+        //and you were saying that c# is weird??
+        // It removes a whoooole word
+        // Keep holding it and press 
+        // WHAT ARE U DOING XDD
+        //Idk XD doing AS U ASKED, IT DOESN'T WORK THEN, it is for me
+        // However, let me show u around!!
+        //OKII DOKII
+
+        // Here it just selects a databse, i had a weird error, and this fixed it
+
+        // a good practice of JS, is make each function or method, do only one task, so am implementing that here, kinda xD
+        // This created a table for me, but it was useless xD
+        //WHY??
+        // Somehow, when i call it, ygouli 'Syntax error', and am sure it is not, i tried it and printed the query in the console
+        // But it didn't work, and i excuted the same query, manually on mysql command line and worked normally -_-
+        // And this one, inserts a dairy! And u tell me my code it orgnised while this function doesn't belong here 
+        // {...args} this means i can insert as many arguments in that object as i want :3
+        // Hello ?? xD
+        //sorry, I got interrupted...sooo, excute it
+        // Sure !! Just a sec ok
+
+}
+
+
+
